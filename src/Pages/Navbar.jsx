@@ -7,12 +7,12 @@ const Navbar = () => {
     <nav className="navbar-container">
       <div className="navbar-content">
         {/* Logo or site title (optional) */}
-        <Link to="/" className="site-title">
+        <Link to="" className="site-title">
           BlogIt
         </Link>
         {/* Navigation links */}
         <div className="nav-links">
-          <Link to="/" className="nav-link" activeClassName="active">
+          <Link to="" className="nav-link" activeClassName="active">
             Home
           </Link>
           <Link to="/bookmarks" className="nav-link" activeClassName="active">

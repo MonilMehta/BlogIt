@@ -2,9 +2,9 @@ import express from 'express';
 import fs from 'fs';
 const app = express();
 const PORT = 3001;
+import cors from 'cors';
 
 app.use(express.json());
-
 const blogsFilePath = './blogs.json';
 const readBlogs = () => {
     const blogsData = fs.readFileSync(blogsFilePath);

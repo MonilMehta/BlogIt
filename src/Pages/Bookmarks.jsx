@@ -14,8 +14,9 @@ const BookmarksPage = () => {
 
   const fetchBookmarkedBlogs = async () => {
     try {
-      const response = await axios.get('http://localhost:3001/api/bookmarkedBlogs');
-      setBookmarkedBlogs(response.data);
+      const response = await axios.get('http://localhost:3001/api/blogs');
+      const bookmarked = response.data.filter(blog => blog.bookmarked);
+      setBookmarkedBlogs(bookmarked);
     } catch (error) {
       console.error('Error fetching bookmarked blogs:', error);
     }

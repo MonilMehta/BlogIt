@@ -9,7 +9,7 @@
   }
   
   .heading {
-    color: black;
+    color: #0A2463;
     font-size: 44px;
     margin-bottom: 20px;
   }
@@ -40,7 +40,7 @@
   .blog-card h2 {
     font-size: 26px;
     margin-bottom: 10px;
-    color: black;
+    color: 3E92CC;
   }
   
   .blog-card p {
