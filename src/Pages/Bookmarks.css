@@ -1,0 +1,48 @@
+.bookmarks-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .bookmark-item {
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .empty-message p{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  .bookmark-item h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  .bookmark-item p {
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .bookmark-item .bookmark-icon {
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .bookmark-item .bookmark-icon svg {
+    font-size: 24px;
+  }
+  
+  .bookmark-item .read-more {
+    display: block;
+    margin-top: 10px;
+    color: blue;
+    text-decoration: none;
+  }
+  
